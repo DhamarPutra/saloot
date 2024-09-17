@@ -1,0 +1,23 @@
+const AddQuestion = "d50d5447-c282-47a5-b39b-0be2e69538c9";
+const AddQuestionImg = "c7f7930d-fd69-4d0b-9eba-6cde4c09e509";
+const AddUser = "8668cd59-e17d-4525-9f51-619d7537f108";
+const AdminPage = "bed56435-7544-417a-991e-caf2ed848307";
+const LeaderboardPage = "36a69f26-521f-45aa-aa6f-41c924825713";
+const Quiz = "1c307e20-8dbd-4f8d-968c-a9968d751834";
+const ImgQuiz = "af5c0277-4796-4511-af62-e738650566ce";
+const Results = "82276690-c57d-4fa7-8180-2bca4968564b";
+const UserJoin = "895a9612-662f-41bf-a664-96d700b6c713";
+const UserList = "00fd0a7f-1af6-444a-a314-30c762d97752";
+const WaitingPage = "3a59ebd6-e207-4510-b13d-f300922f8237";
+
+module.exports = AddQuestion;
+module.exports = AddQuestionImg;
+module.exports = AddUser;
+module.exports = AdminPage;
+module.exports = LeaderboardPage;
+module.exports = Quiz;
+module.exports = ImgQuiz;
+module.exports = Results;
+module.exports = UserJoin;
+module.exports = UserList;
+module.exports = WaitingPage;

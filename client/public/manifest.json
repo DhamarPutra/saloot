@@ -1,0 +1,25 @@
+{
+  "short_name": "Saloot App",
+  "name": "Saloot App",
+  "icons": [
+    {
+      "src": "https://github.com/DhamarPutra/db_image/blob/main/isc192.png?raw=true",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "https://github.com/DhamarPutra/db_image/blob/main/isc192.png?raw=true",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "https://github.com/DhamarPutra/db_image/blob/main/isc500.png?raw=true",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
