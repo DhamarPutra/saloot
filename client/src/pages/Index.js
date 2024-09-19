@@ -4,7 +4,7 @@ import { useNavigate } from "react-router-dom";
 import PORT_API from "./api/PortAPI";
 import Security from "./security/Security";
 import "./security/Security.css";
-import iscLogo from "./assets/image/logo.png";
+import iscLogo from "./assets/images/logo.png";
 
 function Index() {
   const [nama_tim, setnama_tim] = useState("");

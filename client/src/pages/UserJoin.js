@@ -75,30 +75,6 @@ function UserJoin() {
 
   return (
     <div className="p-6 max-w mx-auto bg-white shadow-md rounded-lg">
-      <div className="flex w-full pb-2">
-        <marquee>
-          <img
-            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGHKgqfMK3KafCxHDfvNuP-Uae77fOdMC-XQ&s"
-            alt="Sponsor 1"
-            className="inline mx-2 sponsor-s"
-          />
-          <img
-            src="https://w7.pngwing.com/pngs/670/422/png-transparent-mercedes-hd-logo.png"
-            alt="Sponsor 2"
-            className="inline mx-2 sponsor-m"
-          />
-          <img
-            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQm2az2eypspmikzH229KHadDnSGLUJwO7mRQ&s"
-            alt="Sponsor 3"
-            className="inline mx-2 sponsor-l"
-          />
-          <img
-            src="https://w7.pngwing.com/pngs/153/624/png-transparent-rolls-royce-holdings-plc-car-rolls-royce-phantom-vii-rolls-royce-wraith-rolls-text-rectangle-trademark-thumbnail.png"
-            alt="Sponsor 4"
-            className="inline mx-2"
-          />
-        </marquee>
-      </div>
       <div className="flex justify-center mb-3">
         <Link
           to="/bed56435-7544-417a-991e-caf2ed848307"

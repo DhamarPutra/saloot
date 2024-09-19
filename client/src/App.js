@@ -13,6 +13,7 @@ import Results from "./pages/Results";
 import UserJoin from "./pages/UserJoin";
 import UserList from "./pages/UserList";
 import WaitingPage from "./pages/WaitingPage";
+import sponsor from "./pages/Sponsor";
 
 function App() {
   return (
@@ -20,7 +21,10 @@ function App() {
       <div className="pt-4 pb-14 App bg-sage-50 min-h-screen">
         <Routes>
           <Route path="/" element={<Index />} />
-          <Route path="/fc6151ce-6515-4556-a132-4002a241659f" element={<IndexAdmin />} />
+          <Route
+            path="/fc6151ce-6515-4556-a132-4002a241659f"
+            element={<IndexAdmin />}
+          />
           <Route
             path="/d50d5447-c282-47a5-b39b-0be2e69538c9"
             element={<AddQuestion />}
@@ -66,35 +70,90 @@ function App() {
             element={<WaitingPage />}
           />
         </Routes>
-        <footer className="fixed bottom-0 w-full bg-sage-200 px-4 py-2 text-black text-center">Damar X ISC &copy;2024</footer>
-        {/* <footer className="fixed bottom-0 w-full bg-sage-200 px-4 py-2 text-black text-center">
+        {/* <footer className="fixed bottom-0 w-full bg-sage-200 px-4 py-2 text-black text-center">Damar X ISC &copy;2024</footer> */}
+        <footer className="fixed bottom-0 w-full bg-sage-200 px-4 py-2 text-black text-center">
           <div>Damar X ISC &copy; 2024</div>
           <div>Sponsored by</div>
           <div>
             <marquee>
               <img
-                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGHKgqfMK3KafCxHDfvNuP-Uae77fOdMC-XQ&s"
+                src={sponsor.bmw}
                 alt="Sponsor 1"
-                className="inline mx-2"
+                className="inline mx-2 sponsor-s"
               />
               <img
-                src="https://w7.pngwing.com/pngs/670/422/png-transparent-mercedes-hd-logo.png"
-                alt="Sponsor 2"
-                className="inline mx-2"
+                src={sponsor.chevrolet}
+                alt="Sponsor 1"
+                className="inline mx-2 sponsor-m"
               />
               <img
-                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQm2az2eypspmikzH229KHadDnSGLUJwO7mRQ&s"
-                alt="Sponsor 3"
-                className="inline mx-2"
+                src={sponsor.ferrari}
+                alt="Sponsor 1"
+                className="inline mx-2 sponsor-l"
               />
               <img
-                src="https://w7.pngwing.com/pngs/153/624/png-transparent-rolls-royce-holdings-plc-car-rolls-royce-phantom-vii-rolls-royce-wraith-rolls-text-rectangle-trademark-thumbnail.png"
-                alt="Sponsor 4"
-                className="inline mx-2"
+                src={sponsor.honda}
+                alt="Sponsor 1"
+                className="inline mx-2 sponsor-s"
+              />
+              <img
+                src={sponsor.hondaM}
+                alt="Sponsor 1"
+                className="inline mx-2 sponsor-m"
+              />
+              <img
+                src={sponsor.mercedes}
+                alt="Sponsor 1"
+                className="inline mx-2 sponsor-l"
+              />
+              <img
+                src={sponsor.mitsu}
+                alt="Sponsor 1"
+                className="inline mx-2 sponsor-s"
+              />
+              <img
+                src={sponsor.nissan}
+                alt="Sponsor 1"
+                className="inline mx-2 sponsor-m"
+              />
+              <img
+                src={sponsor.porsche}
+                alt="Sponsor 1"
+                className="inline mx-2 sponsor-l"
+              />
+              <img
+                src={sponsor.shell}
+                alt="Sponsor 1"
+                className="inline mx-2 sponsor-s"
+              />
+              <img
+                src={sponsor.suzuki}
+                alt="Sponsor 1"
+                className="inline mx-2 sponsor-m"
+              />
+              <img
+                src={sponsor.toyota}
+                alt="Sponsor 1"
+                className="inline mx-2 sponsor-l"
+              />
+              <img
+                src={sponsor.volkswagen}
+                alt="Sponsor 1"
+                className="inline mx-2 sponsor-s"
+              />
+              <img
+                src={sponsor.volvo}
+                alt="Sponsor 1"
+                className="inline mx-2 sponsor-m"
+              />
+              <img
+                src={sponsor.yamaha}
+                alt="Sponsor 1"
+                className="inline mx-2 sponsor-l"
               />
             </marquee>
           </div>
-        </footer> */}
+        </footer>
       </div>
     </Router>
   );
